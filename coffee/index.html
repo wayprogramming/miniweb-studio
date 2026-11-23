@@ -3,59 +3,68 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#f2f0e8">
+<meta name="theme-color" content="#f5f2eb">
 <meta name="description" content="Mono Coffee — кофе, выпечка и хорошее настроение.">
-<title>MONO — coffee room</title>
+<title>Mono Coffee — coffee room</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=4">
-<script src="script.js?v=4" defer></script>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Onest:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=5">
+<script src="script.js?v=5" defer></script>
 </head>
 <body>
 <header class="header">
-  <a class="brand" href="#top">MONO<span>®</span></a>
-  <nav id="nav"><a href="#menu">МЕНЮ</a><a href="#special">ЗЕРНО НЕДЕЛИ</a><a href="#visit">ГДЕ МЫ</a></nav>
-  <span class="header-tag">COFFEE ROOM / № 04</span>
+  <a class="brand" href="#top">mono<span>coffee.</span></a>
+  <nav id="nav"><a href="#menu">МЕНЮ</a><a href="#special">НАШ ВЫБОР</a><a href="#visit">КОНТАКТЫ</a></nav>
+  <span class="header-note">COFFEE · BAKERY · DAILY</span>
   <button id="menuToggle" aria-label="Открыть меню" aria-expanded="false">☰</button>
 </header>
 <main id="top">
   <section class="hero">
-    <div class="hero-kicker"><span>НЕБОЛЬШАЯ КОФЕЙНЯ</span><span>ОТКРЫТЫ С 08:00</span></div>
-    <div class="hero-title"><h1>Кофе.<br><i>И точка.</i></h1><div class="hero-aside"><b>01—</b><p>Твоё любимое место<br>для короткой паузы<br>и больших планов.</p></div></div>
-    <div class="hero-visual">
+    <div class="hero-top"><span>НЕБОЛЬШАЯ КОФЕЙНЯ В ГОРОДЕ</span><span>ОТКРЫТЫ КАЖДЫЙ ДЕНЬ</span></div>
+    <div class="hero-heading"><p>Хороший день<br>начинается с <em>кофе.</em></p><span class="hero-note">Свежее зерно.<br>Тёплая выпечка.<br>Твоё место.</span></div>
+    <div class="hero-image">
       <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=1800&q=90" alt="Бариста готовит кофе">
-      <div class="hero-label"><span>FRESH COFFEE</span><b>Каждый день.</b></div>
-      <span class="hero-index">52° 31' N — COFFEE CULTURE</span>
+      <span class="image-caption">MONO COFFEE ROOM — EST. 2026</span>
     </div>
-    <div class="hero-bottom"><span>SPECIALTY COFFEE · FRESH BAKERY</span><a href="#menu">ИЗУЧИТЬ МЕНЮ ↓</a></div>
+    <div class="hero-bottom"><span>01 / ДОБРО ПОЖАЛОВАТЬ</span><a href="#menu">ПОСМОТРЕТЬ МЕНЮ <b>↓</b></a></div>
   </section>
 
   <section class="menu section" id="menu">
-    <div class="section-label"><span>01 / НАПИТКИ</span><span>ПРОСТО ВЫБРАТЬ</span></div>
-    <div class="menu-head"><h2>Что сегодня<br><i>наливаем?</i></h2><p>Проверенная классика<br>и ничего лишнего.</p></div>
+    <div class="section-top"><span>02 / МЕНЮ</span><span>ПРОСТЫЕ ВЕЩИ — ХОРОШИЙ ВКУС</span></div>
+    <div class="section-heading"><h2>Выбирай<br><em>любимое.</em></h2><p>Классика, которую хочется<br>заказывать снова.</p></div>
     <div class="menu-grid">
-      <article class="drink"><div class="drink-image"><img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=900&q=85" alt="Капучино"><span>01</span></div><div class="drink-meta"><h3>Капучино</h3><b>190 ₽</b></div><p>Двойной эспрессо · молоко</p></article>
-      <article class="drink"><div class="drink-image"><img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=900&q=85" alt="Фильтр кофе"><span>02</span></div><div class="drink-meta"><h3>Фильтр</h3><b>170 ₽</b></div><p>Сезонное зерно · чистый вкус</p></article>
-      <article class="drink"><div class="drink-image"><img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=900&q=85" alt="Айс латте"><span>03</span></div><div class="drink-meta"><h3>Айс-латте</h3><b>210 ₽</b></div><p>Эспрессо · холодное молоко · лёд</p></article>
+      <article class="drink"><div class="drink-image"><img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=900&q=85" alt="Капучино"></div><div class="drink-title"><h3>Капучино</h3><b>190 ₽</b></div><p>Эспрессо · молоко · мягкая пенка</p></article>
+      <article class="drink"><div class="drink-image"><img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=900&q=85" alt="Фильтр кофе"></div><div class="drink-title"><h3>Фильтр</h3><b>170 ₽</b></div><p>Сезонное зерно · чистый вкус</p></article>
+      <article class="drink"><div class="drink-image"><img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=900&q=85" alt="Айс латте"></div><div class="drink-title"><h3>Айс-латте</h3><b>210 ₽</b></div><p>Эспрессо · молоко · лёд</p></article>
     </div>
-    <p class="fine-print">* Учебный концепт: меню и цены вымышлены.</p>
+    <p class="fine-print">* Демонстрационное меню: названия и цены вымышлены.</p>
   </section>
 
-  <section class="feature" id="special">
-    <div class="feature-copy"><div class="section-label"><span>02 / ЗНАКОМЬСЯ</span><span>ВЫБОР БАРИСТА</span></div><p class="feature-overline">КОФЕ НЕДЕЛИ</p><h2>Эфиопия<br><i>Guji.</i></h2><p class="feature-text">Яркий и лёгкий профиль с нотами бергамота, персика и жасмина. Завариваем в V60, чтобы сохранить чистоту вкуса.</p><div class="taste"><span>ЦИТРУС</span><span>ЦВЕТЫ</span><span>СЛАДОСТЬ</span></div><span class="feature-number">02 — 2026 / LIMITED PICK</span></div>
-    <div class="feature-photo"><img src="https://images.unsplash.com/photo-1559525839-b184a4d698c7?auto=format&fit=crop&w=1200&q=85" alt="Кофейные зерна крупным планом"><span>ROASTED WITH CARE</span></div>
+  <section class="special" id="special">
+    <div class="special-photo"><img src="https://images.unsplash.com/photo-1559525839-b184a4d698c7?auto=format&fit=crop&w=1200&q=85" alt="Кофейные зёрна"></div>
+    <div class="special-content">
+      <span class="eyebrow">03 / В ФОКУСЕ</span>
+      <p class="special-kicker">ВЫБОР БАРИСТА</p>
+      <h2>Эфиопия<br><em>Guji</em></h2>
+      <p class="special-description">Лёгкий кофе с яркими нотами бергамота, персика и жасмина. Попробуй его в фильтре — так вкус раскрывается особенно чисто.</p>
+      <div class="flavours"><span>БЕРГАМОТ</span><span>ПЕРСИК</span><span>ЖАСМИН</span></div>
+      <span class="special-foot">ОДИН СОРТ. МНОГО ОТТЕНКОВ.</span>
+    </div>
   </section>
 
-  <section class="quote"><span>ПАУЗА — ЭТО ТОЖЕ ПЛАН.</span><h2>Не спеши.<br><i>Кофе подождёт.</i></h2><b>✳</b></section>
+  <section class="quote"><span>МАЛЕНЬКАЯ ПАУЗА В БОЛЬШОМ ДНЕ</span><h2>Останься<br>ещё на <em>глоток.</em></h2><span class="quote-star">✳</span></section>
 
   <section class="visit section" id="visit">
-    <div class="visit-top"><span>03 / ЗАХОДИ В ГОСТИ</span><span>WE'LL SAVE YOU A SEAT</span></div>
-    <div class="visit-main"><h2>Увидимся<br><i>у стойки.</i></h2><div class="visit-info"><div><span>АДРЕС</span><p>ул. Центральная, 8<br>Город, Россия</p></div><div><span>ВРЕМЯ</span><p>Пн — Вс<br>08:00 — 21:00</p></div><div><span>INSTAGRAM</span><p>@mono.coffee</p></div></div></div>
-    <div class="visit-bottom"><span>GOOD COFFEE. GOOD MOOD.</span><span>MONO COFFEE ROOM © 2026</span></div>
-    <p class="fine-print">* Адрес и аккаунт вымышлены и используются только для демонстрации.</p>
+    <div class="section-top"><span>04 / МЫ ЗДЕСЬ</span><span>ЗАХОДИ В ГОСТИ</span></div>
+    <div class="visit-layout"><h2>До встречи<br><em>в Mono.</em></h2><div class="visit-details">
+      <div><span>АДРЕС</span><p>ул. Центральная, 8<br>Город, Россия</p></div>
+      <div><span>ВРЕМЯ РАБОТЫ</span><p>Каждый день<br>08:00 — 21:00</p></div>
+      <div><span>INSTAGRAM</span><p>@mono.coffee</p></div>
+    </div></div>
+    <p class="fine-print">* Адрес и аккаунт вымышлены и приведены только для демонстрации.</p>
   </section>
 </main>
-<footer class="footer"><a class="brand" href="#top">MONO<span>®</span></a><span>COFFEE ROOM</span><a href="#top">НАВЕРХ ↑</a></footer>
+<footer class="footer"><a class="brand" href="#top">mono<span>coffee.</span></a><span>GOOD COFFEE, EVERY DAY.</span><a href="#top">НАВЕРХ ↑</a></footer>
 </body>
 </html>
