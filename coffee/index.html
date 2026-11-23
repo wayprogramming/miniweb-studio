@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#e9e5dc">
+  <meta name="description" content="Mono Coffee — концепт современной городской кофейни.">
+  <title>Mono Coffee — кофе без лишнего</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <a class="logo" href="#home">mono<span>coffee.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Открыть меню" aria-expanded="false">☰</button>
+    <nav class="nav" id="nav"><a href="#menu">Меню</a><a href="#philosophy">Философия</a><a href="#visit">Найти нас</a></nav>
+    <a class="header-cta" href="#visit">Заглянуть ↗</a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <div class="eyebrow"><span></span> COFFEE / PEOPLE / PLACE</div>
+        <h1>Хороший кофе.<br><em>Ничего лишнего.</em></h1>
+        <p>Место, где можно замедлиться, поймать свой ритм и насладиться чашкой действительно хорошего кофе.</p>
+        <a class="button" href="#menu">Открыть меню <span>↘</span></a>
+        <div class="hero-foot"><span>01 — 03</span><span>MADE FOR YOUR EVERYDAY</span></div>
+      </div>
+      <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=1200&q=85" alt="Бариста готовит кофе в кофейне">
+        <div class="image-label">A GOOD DAY<br>STARTS HERE.</div>
+        <span class="vertical-note">SPECIALTY COFFEE · EST. 2026</span>
+      </div>
+    </section>
+
+    <section class="ticker"><span>GOOD COFFEE</span><i>✳</i><span>GOOD PEOPLE</span><i>✳</i><span>GOOD MOMENTS</span><i>✳</i><span>GOOD COFFEE</span></section>
+
+    <section class="menu section" id="menu">
+      <div class="section-head"><div><div class="eyebrow">THE DAILY LINEUP</div><h2>Выбирай <em>своё.</em></h2></div><p>Знакомые вкусы, точный баланс<br>и немного поводов улыбнуться.</p></div>
+      <div class="menu-grid">
+        <article class="menu-card"><div class="menu-photo"><img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=85" alt="Чашка капучино"><span>01 / MILK</span></div><div class="menu-title"><h3>Капучино</h3><b>190 ₽</b></div><p>Эспрессо, молоко и мягкая молочная текстура.</p></article>
+        <article class="menu-card"><div class="menu-photo"><img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=800&q=85" alt="Чёрный фильтр-кофе"><span>02 / BLACK</span></div><div class="menu-title"><h3>Фильтр</h3><b>170 ₽</b></div><p>Чистый вкус зерна с лёгкими фруктовыми нотами.</p></article>
+        <article class="menu-card"><div class="menu-photo"><img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=800&q=85" alt="Латте со льдом"><span>03 / COLD</span></div><div class="menu-title"><h3>Айс-латте</h3><b>210 ₽</b></div><p>Двойной эспрессо, холодное молоко и лёд.</p></article>
+      </div>
+      <div class="menu-foot">* Меню и цены вымышлены и созданы для демонстрации концепта.</div>
+    </section>
+
+    <section class="philosophy" id="philosophy">
+      <div class="philosophy-photo"><img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1100&q=85" alt="Кофейные зёрна и приготовление кофе"><span>LESS NOISE. MORE FLAVOR.</span></div>
+      <div class="philosophy-copy"><div class="eyebrow">A SIMPLE PHILOSOPHY</div><h2>Меньше шума.<br><em>Больше вкуса.</em></h2><p>Мы любим простые вещи, сделанные хорошо. Внимательно выбираем зерно, следим за каждой чашкой и создаём пространство, в котором комфортно быть собой.</p><div class="coffee-sign">mono<span>✳</span></div></div>
+    </section>
+
+    <section class="quote"><span>“</span><p>Take a moment.<br><em>Make it yours.</em></p><small>PAUSE. SIP. REPEAT.</small></section>
+
+    <section class="visit section" id="visit">
+      <div><div class="eyebrow">COME SAY HELLO</div><h2>Твоя чашка<br><em>уже ждёт.</em></h2><p>Заходи за любимым напитком или просто на небольшую паузу посреди дня.</p><a class="button" href="mailto:hello@mono.example">Связаться ↗</a></div>
+      <div class="visit-info"><div><span>АДРЕС</span><p>ул. Центральная, 8<br>Город, Россия</p></div><div><span>МЫ ОТКРЫТЫ</span><p>Каждый день<br>08:00 — 21:00</p></div><div><span>ОНЛАЙН</span><p>hello@mono.example<br>@mono.coffee</p></div><small>Вымышленные данные для демонстрационного проекта.</small></div>
+    </section>
+  </main>
+
+  <footer class="footer"><a class="logo" href="#home">mono<span>coffee.</span></a><p>Good coffee. No extra noise.</p><a href="#home">BACK TO TOP ↑</a><small>© 2026 MONO COFFEE · CONCEPT BY MINIWEB STUDIO</small></footer>
+</body>
+</html>
