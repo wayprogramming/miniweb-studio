@@ -18,7 +18,7 @@ if (toggle && nav) {
 }
 
 const animated = document.querySelectorAll(
-  ".menu-card, .philosophy-photo, .philosophy-copy, .visit > div"
+  ".menu-item, .process-image, .process-content, .quote p, .visit-details"
 );
 
 if ("IntersectionObserver" in window) {
